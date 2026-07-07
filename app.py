@@ -24,9 +24,9 @@ if uploaded_file:
     st.success(f"Total Tickets Loaded: {len(tickets)}")
 
     payout_rules = {
-        3: 15,
-        4: 1000,
-        5: 4000,
+        3: 100,
+        4: 500,
+        5: 7500,
         6: 10000,
         7: 100000
     }
